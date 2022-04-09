@@ -14,5 +14,19 @@
 
 .title {
     color: #3D4D3B;
+
+}
+
+.alt-box {
+    width:100px;
+    border-radius:5px;
+}
+.alt-box-title-container {
+    background-color: #85A383;
+    border-radius: 5 5 0 0;
     
+}
+.alt-box-description-container {
+    background-color: #3D4D3B;
+    border-radius: 0 0 5 5;
 }
