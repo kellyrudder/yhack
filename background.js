@@ -1,3 +1,5 @@
+// source: https://developer.chrome.com/docs/extensions/reference/action/#emulating-pageactions-with-declarativecontent
+
 // Wrap in an onInstalled callback in order to avoid unnecessary work
 // every time the background script is run
 chrome.tabs.onUpdated.addListener(function (tabId, changeInfo, tab) {

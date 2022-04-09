@@ -4,18 +4,61 @@
 <head>
     <title>YHack</title>
     <meta charset="utf-8">
-    <link href="widgetstyle.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
 </head>
 
 <body>
-    <div id="popup" style="width: 450px">
-        <p id="text">hello</p>
-        <button id="testButton">
-            Click me to test
-        </button>
+    <div class="popup-container">
+        <p class="title">Sustainability Rating</p>
+
+        <h2 class="overall-rating">0.5</h2>
+
+        <h3 class="overall-label">Fast Fashion</h3>
+
+        <p class = "hazard">Use of Hazardous Materials</p>
+
+        <p class = "nofairtrade"> No Fair Trade Practices </p>
+
+        <p class = "nocarbon"> No Reduction of Carbon Emissions </p>
+
+        <div class="row">
+            <div class="column left">
+                <p> Some text </p>
+            </div>
+            <div class="column right">
+                <p> Some text </p>
+            </div>
+        </div>
+
+        <h class="alt-text-title">SECOND-HAND ALTERNATIVES</h>
+        <div class="alt-box-container">
+            <div class="alt-box">
+                <div class="alt-box-title-container container">
+                    <h class="alt-box-title">ThredUp</h>
+                </div>
+                <div class="alt-box-description-container container">
+                    <h class="alt-box-description">Size L - $35.99</h>
+                </div>
+            </div>
+            <div class="alt-box">
+                <div class="alt-box-title-container container">
+                    <h class="alt-box-title">ThredUp</h>
+                </div>
+                <div class="alt-box-description-container container">
+                    <h class="alt-box-description">Size L - $35.99</h>
+                </div>
+            </div>
+        </div>
+        <h class="see-more-text">see more ></h>
         <script src="showWidget.js"></script>
+
+        
     </div>
+
 </body>
 
 <script src="background.js"></script>
