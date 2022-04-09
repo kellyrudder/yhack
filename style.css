@@ -18,22 +18,7 @@
 
 .title {
     color: #3D4D3B;
-<<<<<<< Updated upstream
-}
-
-.alt-text-title {
-    color: #3D4D3B;
-    font-weight: bold;
-    text-align: center;
-    font-size: 17px;
-}
-
-.alt-box-container {
-    display: flex;
-    justify-content: center;
-=======
     text-transform: uppercase;
-
     font-family: 'Raleway';
     font-style: normal;
     font-size: 16px;
@@ -54,9 +39,19 @@
 
 .overall-label {
     
->>>>>>> Stashed changes
 }
 
+.alt-text-title {
+    color: #3D4D3B;
+    font-weight: bold;
+    text-align: center;
+    font-size: 17px;
+}
+
+.alt-box-container {
+    display: flex;
+    justify-content: center;
+}
 .alt-box {
     width:40%;
     border-color: none;
