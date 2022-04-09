@@ -19,12 +19,12 @@
 .title {
     color: #3D4D3B;
     text-transform: uppercase;
-    font-family: 'Raleway';
+    font-family: 'Avenir';
     font-style: normal;
     font-size: 16px;
     line-height: 9px;
     text-align: center;
-
+    font-weight: 700;
 }
 
 .overall-rating {
@@ -39,6 +39,10 @@
 
 .overall-label {
     color: #C17070;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Avenir';
 }
 
 
@@ -95,4 +99,38 @@
     color: #3D4D3B;
     font-size:8px;
     text-align: right;
+}
+
+.hazard:before {
+    content: url("vector-hazard.png");
+    padding-right: 5px;
+    height: 10px;
+}
+
+.nofairtrade:before {
+    content: url("vector-trade.png");
+    padding-right: 5px;
+}
+
+.nocarbon:before {
+    content: url("vector-nocarbon.png");
+    padding-right: 5px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column {
+  float: left;
+}
+
+.left {
+  width: 25%;
+}
+
+.right {
+  width: 75%;
 }
