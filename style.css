@@ -1,0 +1,18 @@
+/* $dark-green: #3D4D3B; */
+/* $tan: #F6F3EB; */
+
+.body {
+    background-color: transparent;
+}
+
+.popup-container {
+    width: 350px;
+    background-color: #F6F3EB;
+    border-color: none;
+    border-radius: 15px;
+}
+
+.title {
+    color: #3D4D3B;
+    
+}
